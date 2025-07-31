@@ -10,7 +10,7 @@ h1 {
     margin: 20px;
 }
 .button {
-    height: calc((100vh / 7) - (5px * 5) - 25px);
+    height: calc((100vh / 8) - (5px * 5) - 25px);
     min-height: 50px;
     font-size: clamp(16px, 6vh, 32px); /* Scales with viewport height */
     display: flex;
@@ -62,4 +62,8 @@ h1 {
 }
 #photos:hover{
     background-color: #dd7f03;
+}
+#chatgpt:hover{
+    background-color: #0099ad;
+    color: black;
 }
